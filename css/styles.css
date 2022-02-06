@@ -13,15 +13,14 @@ header {
   left: 0;
   width: 100%;
   opacity: 1.0;
-  text-align: center !important;
+  text-align: center;
   z-index: 1;
 }
 menu {
   color: white;
   display: inline-block;
   margin-bottom: 0;
-  margin: 0;
-  padding-inline-start: 0;
+  Margin: 0;
 }
 
 td {
@@ -31,14 +30,11 @@ td {
   line-height: 1em;
 }
 
-#media-menu {
-  border-right: hidden;
-}
-
 .star {
-    visibility: hidden;    
-  }
-
+  position: relative;
+  bottom: 40px;
+  animation: spin 500ms linear 3;
+}
 @keyframes spin {
 	0% {
 		transform: rotateZ(0);
@@ -123,18 +119,16 @@ td {
 
 /* ----------------CALENDAR BEGINS HERE--------------------- */
 
-.shows-body {  
-    display: grid;
-    place-items: center;
-  /* text-align: center; */
-  /* margin: 200px 25% 0; */
+.shows-body {
+  text-align: center;
+  margin: 200px 25% 0;
   background-color: rgb(22, 7, 7);
 }
 /* .clear-header {
   padding: 200px 0 0;
 } */
 .shows-body * {
-  /* margin: 0; */
+  margin: 0;
 }
 
 .flyer-thumb {
@@ -156,18 +150,13 @@ td {
   font-family: 'Montserrat', sans-serif;
   color: blanchedalmond;
   text-align: left;
-  padding: 0 30px;
+  padding: 30px;
   display: inline-block;
   position: absolute;  
-  height: 205px;
-  /* inline-size: min-content; */
-  /* inline-size: 150px; */
-  /* overflow-wrap: break-word; */
-  /* word-break: break-all; */
+  
 }
 .event-details h1 {
   font-size: 32px;
-  padding-top: 0;
 } 
 
 .btn {
@@ -237,7 +226,22 @@ section:hover {
 }
 
 /* ----------MEDIA QUERIES/RESPONSIVE DESIGN---------------*/
-/* Applies to screens 1000px and up */
+
+/* @media (max-width: 420px) {
+  
+  .star {
+    display: none;
+  }
+  
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }   
+} */
+
+
+/* ----------MEDIA QUERIES/RESPONSIVE DESIGN---------------*/
+/* Applies to screens 768px and up */
 @media (min-width: 768px) {
     
   .star {
@@ -261,14 +265,13 @@ section:hover {
   place-items: center;
 } */
 
+/* Applies to screens 768px and under */
 @media (max-width: 768px) {
     
-  /* .star {
-    visibility: visible;
-    position: relative;
-    bottom: 40px;
-    animation: spin 500ms linear 3;
-  } */
+  .star {
+    display: none;
+  }
+
   .shows-body {
     /* display:inline; */
     display: grid;
@@ -284,12 +287,23 @@ section:hover {
     position: absolute;
   }
 
-  h1 .calendar-block {
-    font-size: 50%;
-  }
+  /* h1 .calendar-block {
+    font-size: 30%;
+  } */
 
   .event-details {
     /* font-size: clamp(2rem,7vmin,3rem); */
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* text-overflow: unset; */
   }
+  .event-details {
+    text-align: left;
+    padding: 0;
+    display: inline-block;
+    position: absolute;  
+    
+  }
+  .event-details h1 {
+    /* font-size: -30%; */
+  } 
 }
