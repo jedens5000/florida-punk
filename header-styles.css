@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1.0;
+  text-align: center;
+}
+menu {
+  color: white;
+  display: inline-block;
+  margin-bottom: 0;
+  Margin: 0;
+}
+
+td {
+  border-right: solid;
+  padding: 0px 10px;
+  margin: 0px;
+  line-height: 1em;
+}
+h1 {
+  font-size: 91px;
+  -webkit-text-stroke: .5px #ffffff;
+  margin-bottom: 0;
+}
+.venue-body h1 {
+  font-size: 91px;
+  -webkit-text-stroke: .5px #000000;
+  margin-bottom: 0;
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.star {
+  position: relative;
+  bottom: 40px;
+  animation: spin 500ms linear 3;
+}
+@keyframes spin {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+#logo {
+  width: 600px;
+  height: 122px;
+}
+
+.table-style {
+  font-family: 'Bangers', sans-serif;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0px;
+  font-size: 35px;
+  margin: 1px;
+  padding: 0px 10px 0px 0px red;
+  border-color: red;
+  }
+#media-line {
+  border: none;
+}
+/*----styling for links------*/
+
+.table-style a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+.table-style a:visited {
+  color: #FFFFFF;
+}
+.table-style a:hover {
+  color: #E21C21;
+  -webkit-text-stroke: 1px #FFFFFF;
+}
+.table-style a:active {
+  color: white;
+}
+
+/* ----------------BODY BEGINS HERE--------------------- */
+.index-body {
+  background-image: url("../images/crowd1.jpeg");
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+  color: #E21C21;
+  -webkit-text-stroke: 1px #FFFFFF;
+  font-size: 49px;
+  line-height: 1em;
+  margin-top: 4em;
+  clear: both;
+}
+
+.venue-body {
+  background: black;
+  font-family: 'Anton', sans-serif;
+  color: #FFFFFF;
+  font-size:25px;
+  margin-top: 6em;
+  clear: both;
+}
+.venue-body p {
+  font-size: inherit;
+  -webkit-text-stroke: .5px #000000;
+  margin-bottom: 1em;
+}
+
+/* .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+  /* z-index: -1;
+  } */
+/* ----------------CALENDAR BEGINS HERE--------------------- */
+
+.shows-body {
+  margin: 200px 25% 0;
+  background-color: rgb(22, 7, 7);
+}
+.clear-header {
+  padding: 200px 0 0;
+}
+
+.event-details h1 {
+  font-size: 32px;
+}
+
+.flyer-thumb {
+  text-align: left;
+  width: 147px;
+  height: 205px;
+}
+.calendar-block {
+  width: 734px;
+  height: 205px;
+  background-color: #000000;
+  display: inline-block;
+  border-style: solid;
+  
+}
+
+.event-details {
+  font-family: 'Montserrat', sans-serif;
+  color: blanchedalmond;
+  text-align: left;
+  padding: 30px;
+  display: inline-block;
+  position: absolute;  
+}
+
+.btn {
+  color: blanchedalmond;
+  background: #fa2424;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  /* float: right; */
+  margin: 80px 30px auto auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section:hover {
+  border-style: solid;
+  border-color: blanchedalmond
+}
+
+.event-details:hover {
+  color: rgb(248, 248, 100);
+}
