@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Classes\\Udemy\\Complete 2021 Web Development Bootcamp\\CSS - My Site"
+		},
+		{
+			"path": "..\\CSS-Portfolio"
+		},
+		{
+			"path": "..\\..\\Classes\\Udemy\\Complete 2021 Web Development Bootcamp\\Bootstrap-installation"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Florida Punk rebuild - Bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Florida Punk rebuild - Bootstrap"
+	}
+}
