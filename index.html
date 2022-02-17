@@ -13,8 +13,33 @@
 </head>
 
 <!-----------------HEADER------------------------>
-<!-- <center> -->
 <header>
+  <nav id="hamburger">
+    <div class="topnav">
+      <a href="index.html" class="active">
+        <img id="logo-small" src="images/FloridaPunkHeaderLogo.png" alt="Florida Punk Rock"></a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="shows.html">Shows</a>
+        <a href="venues.html">Venues</a>
+        <a href="submit.html">Submit</a>
+        <!-- SOCIAL ICONS BELOW HERE -->
+        <div id="social-menu">
+          <table>
+            <tr>
+              <td><a href="https://www.instagram.com/floridapunkrock/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+              <td><a href="https://www.facebook.com/FloridaPunkRock" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+              <td id="no-border"><a href="https://www.youtube.com/channel/UCbhooPeuwSYQ3q6BDCB81XA?sub_confirmation=1" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>            
+           </tr>  
+          </table>
+        </div>
+        <!-- SOCIAL ICONS ABOVE HERE -->        
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="https://img.icons8.com/ios-filled/50/000000/menu--v4.png"/>        
+      </a>
+    </div>
+  </nav>
   <menu>
   <table class="table-style">
     <tr>
@@ -27,7 +52,11 @@
       <td>
         <a href="submit.html">SUBMIT</a>
       <td id="no-border">
-        <a href="https://www.instagram.com/floridapunkrock/" target="_blank">MEDIA</a>
+        <a href="https://www.instagram.com/floridapunkrock/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <td id="no-border">
+        <a href="https://www.facebook.com/FloridaPunkRock" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <td id="no-border">
+        <a href="https://www.youtube.com/channel/UCbhooPeuwSYQ3q6BDCB81XA?sub_confirmation=1" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
       </td>
   </table>
   </menu>
@@ -41,16 +70,19 @@
 
 <!-----------------BODY------------------------>
 
-<body class="index-body">
+<body class="index-body" id="background-img">
   <div>
     <br>    
-    <h1>VACCINATED!</h1>
-    <p>...and ready to ROCK!!</p>
+    <h1>Hey.. Ho.. LET'S GO!</h1>
+    <!-- <h1>VACCINATED</h1>
+    <p>...and ready to ROCK!!</p> -->
     <!-- <h1>CANCELLED!</h1>
     <p>All shows cancelled until COVID-19 is contained.</p>
 <img src="https://static.wixstatic.com/media/9e634c_7060cdf5c8c448539aa0be7db971cb3d~mv2.png/v1/fill/w_750,h_625,al_c,q_90,usm_0.66_1.00_0.01/COVID19notDead_edited_edited.webp" width="300px"> -->
       <!-- <img src="images/COVID19notDead-white.png" width="300px"> -->
   </div>
+<script src="script\script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-<!-- </center> -->
 </html>

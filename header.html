@@ -4,12 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Florida Punk</title>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="header-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header-styles.css">  
 </head>
-
 <!-----------------HEADER------------------------>
 <header>
+  <nav id="hamburger">
+    <div class="topnav">
+      <a href="index.html" class="active">
+        <img id="logo-small" src="images/FloridaPunkHeaderLogo.png" alt="Florida Punk Rock"></a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="shows.html">Shows</a>
+        <a href="venues.html">Venues</a>
+        <a href="submit.html">Submit</a>
+        <!-- INSERT SCOIAL ICONS INLINE HERE -->
+        <a href="https://www.instagram.com/floridapunkrock/" target="_blank">Media</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="https://img.icons8.com/ios-filled/50/000000/menu--v4.png"/>        
+      </a>
+    </div>
+  </nav>
   <menu>
   <table class="table-style">
     <tr>
@@ -21,8 +37,8 @@
         <a href="venues.html">VENUES</a>
       <td>
         <a href="submit.html">SUBMIT</a>
-      <td id="media-line">
-        <a href="media.html">MEDIA</a>
+      <td id="no-border">
+        <a href="https://www.instagram.com/floridapunkrock/" target="_blank">MEDIA</a>
       </td>
   </table>
   </menu>
@@ -38,7 +54,7 @@
 
 <body class="index-body">
   <div>
-    <br>    
+    <br> 
     <h1>VACCINATED!</h1>
     <p>...and ready to ROCK!!</p>
     <!-- <h1>CANCELLED!</h1>
@@ -46,5 +62,15 @@
 <img src="https://static.wixstatic.com/media/9e634c_7060cdf5c8c448539aa0be7db971cb3d~mv2.png/v1/fill/w_750,h_625,al_c,q_90,usm_0.66_1.00_0.01/COVID19notDead_edited_edited.webp" width="300px"> -->
       <!-- <img src="images/COVID19notDead-white.png" width="300px"> -->
   </div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>

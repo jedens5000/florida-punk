@@ -15,6 +15,32 @@
 
 <!-----------------HEADER------------------------>
 <header>
+  <nav id="hamburger">
+    <div class="topnav">
+      <a href="index.html" class="active">
+        <img id="logo-small" src="images/FloridaPunkHeaderLogo.png" alt="Florida Punk Rock"></a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="shows.html">Shows</a>
+        <a href="venues.html">Venues</a>
+        <a href="submit.html">Submit</a>
+        <!-- SOCIAL ICONS BELOW HERE -->
+        <div id="social-menu">
+          <table>
+            <tr>
+              <td><a href="https://www.instagram.com/floridapunkrock/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+              <td><a href="https://www.facebook.com/FloridaPunkRock" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+              <td id="no-border"><a href="https://www.youtube.com/channel/UCbhooPeuwSYQ3q6BDCB81XA?sub_confirmation=1" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>            
+           </tr>  
+          </table>
+        </div>
+        <!-- SOCIAL ICONS ABOVE HERE -->        
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="https://img.icons8.com/ios-filled/50/000000/menu--v4.png"/>        
+      </a>
+    </div>
+  </nav>
   <menu>
   <table class="table-style">
     <tr>
@@ -27,7 +53,11 @@
       <td>
         <a href="submit.html">SUBMIT</a>
       <td id="no-border">
-        <a href="https://www.instagram.com/floridapunkrock/" target="_blank">MEDIA</a>
+        <a href="https://www.instagram.com/floridapunkrock/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <td id="no-border">
+        <a href="https://www.facebook.com/FloridaPunkRock" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <td id="no-border">
+        <a href="https://www.youtube.com/channel/UCbhooPeuwSYQ3q6BDCB81XA?sub_confirmation=1" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
       </td>
   </table>
   </menu>
@@ -49,14 +79,14 @@
     <p>For Venues, include the full street address, website, phone, and if you have it, booking contact info.</p>
     <!-- <a href="mailto:floridapunkrock@gmail.com?subject=Florida Punk site submission">Email Us</a>   -->
     <contact>
-      <a class="submit-button" href="mailto:floridapunkrock@gmail.com?subject=Florida Punk site submission">SUBMIT</a>
+      <a class="submit-button" href="mailto:info@floridapunk.com?subject=Florida Punk site submission">SUBMIT</a>
     </contact>
   </div>
 
-<!-----------------ADD FEATURED/PREMIUM (PAID) VENUES------------------------>
+<!--------ADD FEATURED/PREMIUM (PAID) VENUES------------------->
 
 <!-----------------TABLE CSS------------------------>
-<style>
+<!-- <style>
 
 .tg {
     /* text-align: center; */
@@ -124,306 +154,14 @@
   display: none;
 }
 
-</style>
+</style> -->
 
 
 
-<!-----------------TABLE HTML------------------------>
-<div id="venue-table">
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-loa0">Region</th>
-    <th class="tg-loa0">Venue</th>
-    <th class="tg-loa0">Address</th>
-    <th class="tg-loa0">City</th>
-    <th class="tg-loa0">Phone</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="http://cultureroom.net/" target="_blank">Culture Room</a></td>
-    <td class="tg-dzkx">3045 N Federal Hwy</td>
-    <td class="tg-dzkx">Fort Lauderdale</td>
-    <td class="tg-dzkx">(954) 564-1074</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/PoorHouse-233412400065970/" target="_blank">Poorhouse</a></td>
-    <td class="tg-dzkx">110 Nugent Ave</td>
-    <td class="tg-dzkx">Fort Lauderdale</td>
-    <td class="tg-dzkx">(954) 522-5145</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.jointherevolution.net/" target="_blank">Revolution Live</a></td>
-    <td class="tg-dzkx">100 SW 3rd Ave</td>
-    <td class="tg-dzkx">Fort Lauderdale</td>
-    <td class="tg-dzkx">(954) 449-1025</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/lozerlounge/" target="_blank">Lozer Lounge</a></td>
-    <td class="tg-dzkx">537 S Dixie Hwy E</td>
-    <td class="tg-dzkx">Pompano Beach</td>
-    <td class="tg-dzkx">N/A</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.theamppompano.org/" target="_blank">Pompano Beach Amphitheatre</a></td>
-    <td class="tg-dzkx">1806 NE 6th St</td>
-    <td class="tg-dzkx">Pompano Beach</td>
-    <td class="tg-dzkx">(561) 223-7231</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/PropagandaLakeWorth/" target="_blank">Propaganda Lake Worth</a></td>
-    <td class="tg-dzkx">6 S J St</td>
-    <td class="tg-dzkx">Lake Worth</td>
-    <td class="tg-dzkx">(561) 547-7273</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.churchillspub.com/" target="_blank">Churchill's Pub</a></td>
-    <td class="tg-dzkx">5501 NE 2nd Ave</td>
-    <td class="tg-dzkx">Miami</td>
-    <td class="tg-dzkx">(305) 757-1807</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="http://www.gramps.com/" target="_blank">Gramps</a></td>
-    <td class="tg-dzkx">176 NW 24th St</td>
-    <td class="tg-dzkx">Miami</td>
-    <td class="tg-dzkx">(305) 699-2669</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.lasrosasbar.com/" target="_blank">Las Rosas</a></td>
-    <td class="tg-dzkx">2898 NW 7th Ave</td>
-    <td class="tg-dzkx">Miami</td>
-    <td class="tg-dzkx">(786) 780-2700</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/killyouridolmiami/" target="_blank">Kill Your Idol</a></td>
-    <td class="tg-dzkx">222 Espanola Way</td>
-    <td class="tg-dzkx">Miami Beach</td>
-    <td class="tg-dzkx">(305) 672-1707</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">SE Florida</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/respectablestreet/" target="_blank">Respectable Street</a></td>
-    <td class="tg-dzkx">518 Clematis St</td>
-    <td class="tg-dzkx">West Palm Beach</td>
-    <td class="tg-dzkx">(561) 832-9999</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.fergssportsbar.com/" target="_blank">Ferg's Sports Bar And Grill </a></td>
-    <td class="tg-dzkx">1320 Central Ave</td>
-    <td class="tg-dzkx">St. Petersburg</td>
-    <td class="tg-dzkx">(727) 822-4562</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.jannuslive.com/" target="_blank">Jannus Live</a></td>
-    <td class="tg-dzkx">200 1st Ave N</td>
-    <td class="tg-dzkx">St. Petersburg</td>
-    <td class="tg-dzkx">(727) 565-0550</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/Iberianroostersubcentral/" target="_blank">SubCentral At The Iberian Rooster</a></td>
-    <td class="tg-dzkx">475 Central Avenue</td>
-    <td class="tg-dzkx">Saint Petersburg</td>
-    <td class="tg-dzkx">(727) 258-8753</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/brassmugtampa/" target="_blank">Brass Mug</a></td>
-    <td class="tg-dzkx">1450 Skipper Rd</td>
-    <td class="tg-dzkx">Tampa</td>
-    <td class="tg-dzkx">(813) 972-8152</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="http://www.crowbarybor.com/" target="_blank">Crowbar</a></td>
-    <td class="tg-dzkx">1812 N 17th St</td>
-    <td class="tg-dzkx">Tampa</td>
-    <td class="tg-dzkx">(813) 241-8600</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.theorpheum.com/" target="_blank">The Orpheum</a></td>
-    <td class="tg-dzkx">1915 E 7th Ave</td>
-    <td class="tg-dzkx">Tampa</td>
-    <td class="tg-dzkx">(813) 248-9500</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="http://www.theritzybor.com/" target="_blank">The Ritz Ybor</a></td>
-    <td class="tg-dzkx">1503 E 7th Ave,</td>
-    <td class="tg-dzkx">Tampa</td>
-    <td class="tg-dzkx">(813) 248-4050</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">West Coast</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/TheVeronaBar/" target="_blank">The Verona</a></td>
-    <td class="tg-dzkx">4319 US hwy 19 N</td>
-    <td class="tg-dzkx">New Port Richey</td>
-    <td class="tg-dzkx">(727) 364-8789</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="https://www.willspub.org/" target="_blank">Will's Pub</a></td>
-    <td class="tg-dzkx">1042 N Mills Ave</td>
-    <td class="tg-dzkx">Orlando</td>
-    <td class="tg-dzkx">N/A</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/thebeachamorlando/" target="_blank">The Beacham</a></td>
-    <td class="tg-dzkx">46 N Orange Ave</td>
-    <td class="tg-dzkx">Orlando</td>
-    <td class="tg-dzkx">(407) 246-1419</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="plazaliveorlando.com" target="_blank">The Plaza Live</a></td>
-    <td class="tg-dzkx">425 N Bumby Ave</td>
-    <td class="tg-dzkx">Orlando</td>
-    <td class="tg-dzkx">(407) 228-1220</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="https://www.drinkatwestend.com" target="_blank">West End Trading Co.</a></td>
-    <td class="tg-dzkx">202 S Sanford Ave</td>
-    <td class="tg-dzkx">Sanford</td>
-    <td class="tg-dzkx">(407) 322-7475</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/HavenLounge/" target="_blank">Haven Lounge</a></td>
-    <td class="tg-dzkx">6700 Aloma Ave</td>
-    <td class="tg-dzkx">Winter Park</td>
-    <td class="tg-dzkx">(407) 673-2712</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Central</td>
-    <td class="tg-dzkx"><a href="http://www.beachsidetavern.com/" target="_blank">Beachside Tavern</a></td>
-    <td class="tg-dzkx">690 E 3rd Ave</td>
-    <td class="tg-dzkx">New Smyrna Beach</td>
-    <td class="tg-dzkx">(386) 424-8282</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="https://highdivegainesville.com" target="_blank">High Dive</a></td>
-    <td class="tg-dzkx">210 SW 2nd Ave</td>
-    <td class="tg-dzkx">Gainesville</td>
-    <td class="tg-dzkx">(352) 872-5940</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="http://www.thewoolygainesville.com" target="_blank">The Wooly</a></td>
-    <td class="tg-dzkx">20 N Main St</td>
-    <td class="tg-dzkx">Gainesville</td>
-    <td class="tg-dzkx">(352) 278-1178</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="http://www.looseys.com" target="_blank">Loosey's</a></td>
-    <td class="tg-dzkx">120 SW 1st Avenue</td>
-    <td class="tg-dzkx">Gainesville</td>
-    <td class="tg-dzkx">(352) 672-6465</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="http://www.hardback211.com/Pages/hardback.html" target="_blank">Hardback Cafe</a></td>
-    <td class="tg-dzkx">920 NW 2nd St</td>
-    <td class="tg-dzkx">Gainesville</td>
-    <td class="tg-dzkx">(352) 317-1997</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="http://www.theatlanticgainesville.com/" target="_blank">The Atlantic</a></td>
-    <td class="tg-dzkx">15 N Main St</td>
-    <td class="tg-dzkx">Gainesville</td>
-    <td class="tg-dzkx">N /A</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="https://www.nighthawksjax.com" target="_blank">Nighthawks</a></td>
-    <td class="tg-dzkx">2952 Roosevelt Blvd</td>
-    <td class="tg-dzkx">Jacksonville</td>
-    <td class="tg-dzkx">(904) 619-9978</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/shantytownjax/" target="_blank">Shantytown Pub</a></td>
-    <td class="tg-dzkx">22 W 6th St</td>
-    <td class="tg-dzkx">Jacksonville</td>
-    <td class="tg-dzkx">(904) 798-8222</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/shanghainobbys/" target="_blank">Shanghai Nobby's</a></td>
-    <td class="tg-dzkx">10 Anastasia Blvd</td>
-    <td class="tg-dzkx">Saint Augustine</td>
-    <td class="tg-dzkx">(904) 547-2188</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">North</td>
-    <td class="tg-dzkx"><a href="https://www.sarbezstaugustine.com" target="_blank">Sarbez</a></td>
-    <td class="tg-dzkx">115 Anastasia Blvd</td>
-    <td class="tg-dzkx">Saint Augustine</td>
-    <td class="tg-dzkx">(904) 342-0632</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/Night-Moves-Pensacola-323620735244834/" target="_blank">Night Moves</a></td>
-    <td class="tg-dzkx">6707 Plantation Rd B1</td>
-    <td class="tg-dzkx">Pensacola</td>
-    <td class="tg-dzkx">N/A</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://www.vinylmusichall.com/" target="_blank">Vinyl Music Hall</a></td>
-    <td class="tg-dzkx">2 S Palafox St</td>
-    <td class="tg-dzkx">Pensacola</td>
-    <td class="tg-dzkx">(805) 607-6758</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://thebarktally.com/" target="_blank">The Bark</a></td>
-    <td class="tg-dzkx">507 All Saints St.</td>
-    <td class="tg-dzkx">Tallahassee</td>
-    <td class="tg-dzkx">(850) 900-5936</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/wilburytallahassee/" target="_blank">The Wilbury</a></td>
-    <td class="tg-dzkx">513 W Gaines St</td>
-    <td class="tg-dzkx">Tallahassee</td>
-    <td class="tg-dzkx">(850) 320-6353</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://www.facebook.com/TheLitterBoxCFR/" target="_blank">The LitterBox</a></td>
-    <td class="tg-dzkx">327 Meadowbrook Lane</td>
-    <td class="tg-dzkx">Tallahassee</td>
-    <td class="tg-dzkx">(850) 445-8734</td>
-  </tr>
-  <tr>
-    <td class="tg-dzkx">Panhandle</td>
-    <td class="tg-dzkx"><a href="https://www.rockdestin.com" target="_blank">Club LA</a></td>
-    <td class="tg-dzkx">34876 Emerald Coast Pkwy</td>
-    <td class="tg-dzkx">Destin</td>
-    <td class="tg-dzkx">(850) 654-5251</td>
-  </tr>
-</tbody>
-</table>
-</div>
+
+<script src="script\script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 <footer>
   <div><p></p>
