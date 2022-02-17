@@ -427,7 +427,7 @@ body {
   /*************** HAMBURGER MENU **************/
   #hamburger .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
     position: relative;
   }
       
@@ -460,6 +460,17 @@ body {
   }
   #hamburger #social-menu {
     display: inline-block;
+  }
+  /* TEST TO CLOSE MENU AFTER CLICK */
+  /* #hamburger #show-location {
+    display: none;
+  } */
+  .child{
+    display: none;
+  }
+  
+  .parent.clicked .child{
+    display: block;
   }
 }
 /* *****************NOT SURE WHAT THIS IS********************** */
