@@ -40,6 +40,10 @@ td {
   line-height: 1em;
 }
 
+#border {
+  border-bottom: 1px solid #000000;
+}
+
 #no-border {
   border-right: none;  
 }
