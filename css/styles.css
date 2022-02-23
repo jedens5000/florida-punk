@@ -1,17 +1,19 @@
-* {
-  /* border: 1px dashed pink; */
+/* * {
+  border: 1px dashed pink;
   min-height: 10px;
-}
+} */
 
 html {
   box-sizing: border-box;
   text-align: center;
-  height: 100%;
+  /* height: 100%; */
   /* overflow:hidden; */
   /* margin: 0; */
-  /* width: 2000px; */
+  /* width: 100vw; */
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   margin: 0;
 }
@@ -21,10 +23,11 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  opacity: 1.0;
+  width: 100vw;
+  opacity: 1;
   text-align: center;
   z-index: 1;
+  /* overflow: auto; */
 }
 menu {
   color: white;
@@ -45,7 +48,7 @@ td {
 }
 
 #no-border {
-  border-right: none;  
+  border-right: none;
 }
 
 .star {
@@ -54,12 +57,12 @@ td {
   animation: spin 500ms linear 3;
 }
 @keyframes spin {
-	0% {
-		transform: rotateZ(0);
-	}
-	100% {
-		transform: rotateZ(360deg);
-	}
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 #logo {
@@ -68,27 +71,27 @@ td {
 }
 
 .table-style {
-  font-family: 'Bangers', sans-serif;
-  color: #FFFFFF;
+  font-family: "Bangers", sans-serif;
+  color: #ffffff;
   -webkit-text-stroke: 0px;
   font-size: 35px;
   margin: 1px;
   padding: 0px 10px 0px 0px red;
   /* border-color: red; */
-  }
+}
 
 /*----styling for menu links------*/
 
 .table-style a:link {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
-  }
+}
 .table-style a:visited {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .table-style a:hover {
-  color: #E21C21;
-  -webkit-text-stroke: 1px #FFFFFF;
+  color: #e21c21;
+  -webkit-text-stroke: 1px #ffffff;
 }
 .table-style a:active {
   color: white;
@@ -113,9 +116,9 @@ td {
   background-size: 150%;
   background-color: #000000;
   position: relative;
-  font-family: 'Anton', sans-serif;
-  color: #E21C21;
-  -webkit-text-stroke: 1px #FFFFFF;
+  font-family: "Anton", sans-serif;
+  color: #e21c21;
+  -webkit-text-stroke: 1px #ffffff;
   font-size: 49px;
   line-height: 1em;
   margin-top: 4em;
@@ -123,15 +126,15 @@ td {
 }
 .index-body h1 {
   font-size: 91px;
-  -webkit-text-stroke: .5px #ffffff;
+  -webkit-text-stroke: 0.5px #ffffff;
   margin-bottom: 0;
   text-align: center;
-  line-height: 100px;  
+  line-height: 100px;
 }
 .venue-body {
-  font-family: Special Elite,'Anton', sans-serif;
+  font-family: Special Elite, "Anton", sans-serif;
   color: blanchedalmond;
-  font-size:25px;
+  font-size: 25px;
   margin-top: 6em;
   clear: both;
   text-align: center;
@@ -139,14 +142,14 @@ td {
 }
 .venue-body p {
   font-size: inherit;
-  -webkit-text-stroke: .5px #000000;
-  margin: 1em 0;  
+  -webkit-text-stroke: 0.5px #000000;
+  margin: 1em 0;
 }
 .venue-body h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 91px;
   line-height: 100px;
-  -webkit-text-stroke: .5px #000000;
+  -webkit-text-stroke: 0.5px #000000;
   padding: 25px 0 0 0;
   margin-bottom: 0;
   border-bottom: 1px solid #9b9b9b;
@@ -171,7 +174,6 @@ td {
   place-items: center;
   margin: 200px 5px 0 5px;    
 } */
-
 
 #header-clear {
   margin-top: 230px;
@@ -200,17 +202,17 @@ td {
 }
 
 .event-details {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: blanchedalmond;
   text-align: left;
   padding: 1px 0 0 20px;
   display: inline-block;
-  position: absolute;  
+  position: absolute;
   /* vertical-align: middle; */
 }
 .event-details h1 {
   font-size: 32px;
-} 
+}
 
 .btn {
   display: none; /* THIS HIDES THE TICKET BUTTON */
@@ -221,12 +223,12 @@ td {
   border-radius: 4px;
   /* float: right; */
   margin: 80px 30px auto auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 section:hover {
   border-style: solid;
-  border-color: blanchedalmond
+  border-color: blanchedalmond;
 }
 
 .event-details:hover {
@@ -234,25 +236,24 @@ section:hover {
 }
 
 .shows-region {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 100;
   padding: 20px 0;
   /* scroll-margin-top: 250px; */
   vertical-align: middle;
 }
 
-
 .region-container {
-  font-family: 'Special Elite', sans-serif;
+  font-family: "Special Elite", sans-serif;
   font-size: 1em;
-  background-color: #E21C21;
+  background-color: #e21c21;
   height: 77px;
   width: 734px;
   display: inline-block;
   border-style: solid;
-  border-color: #FFEBCD;
+  border-color: #ffebcd;
   text-align: center;
-  scroll-margin-top: 215px;  
+  scroll-margin-top: 215px;
 }
 
 .shows-footer {
@@ -262,25 +263,22 @@ section:hover {
 
 /* ----------------VENUES BEGINS HERE--------------------- */
 
-/* NEED TO CONVERT INLINE VENUE CSS TO MOVE HERE */ 
-
-
-
+/* NEED TO CONVERT INLINE VENUE CSS TO MOVE HERE */
 
 /* ----------------SUBMIT BEGINS HERE--------------------- */
 
 .submit-button {
-  color: #F7FFF7;
-  background: #E21C21;
+  color: #f7fff7;
+  background: #e21c21;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
-  display: inline-block; 
+  display: inline-block;
 }
 .submit-button:hover {
-  color: #E21C21;
-  background-color: #FFFFFF;
-  border-color: #E21C21;
+  color: #e21c21;
+  background-color: #ffffff;
+  border-color: #e21c21;
 }
 
 /* ----------MEDIA QUERIES/RESPONSIVE DESIGN---------------*/
@@ -296,7 +294,6 @@ section:hover {
     transform: rotate(0);
   }   
 } */
-
 
 /* ----------MEDIA QUERIES/RESPONSIVE DESIGN---------------*/
 /**** Applies to screens 768px and up ****/
@@ -327,25 +324,33 @@ section:hover {
   /* body {
     margin: 0 auto;
   } */
-  menu, #logo, .star {
-    display: none;    
+  menu,
+  #logo,
+  .star {
+    display: none;
   }
-body {
-  margin: 0;
-}
-.index-body h1 {
-  margin-top: 120px;
-}
-.venue-body {
-  position: relative;
-  margin: 9em 0 0 0;
-  width: 100%;
-
-  /* padding: 50px 0 0 0; */
-  /* top: 500px; */
-}
-  .shows-body {
+  html {
+    width: 100vh;
+    /* width: 500px; */
+  }
+  body {
+    margin: 0;
+    width: 100vw;
+  }
+  .index-body h1 {
+    margin-top: 120px;
+  }
+  .venue-body {
+    position: relative;
+    margin: 9em 0 0 0;
     width: 100%;
+
+    /* padding: 50px 0 0 0; */
+    /* top: 500px; */
+  }
+  .shows-body {
+    /* width: 100%; */
+    width: 100vw;
     /* background-color: #000000; */
     /* display:inline; */
     /* display: grid;
@@ -360,25 +365,27 @@ body {
     /* width: auto; */
   }
   .region-container {
-    font-family: 'Special Elite', sans-serif;
+    font-family: "Special Elite", sans-serif;
     font-size: 1em;
-    background-color: #E21C21;
+    background-color: #e21c21;
     height: 77px;
-    width: 100%;
+    width: 100vw;
     display: block;
     border-style: solid;
-    border-color: #FFEBCD;
+    border-color: #ffebcd;
     text-align: center;
     scroll-margin-top: 215px;
   }
   .calendar-block {
-    width: 100%;
+    width: 100vw;
     height: 205px;
+    min-height: auto;
+    /* height: max-content; */
     background-color: #000000;
     display: inline-block;
     border-style: solid;
     /* text-align: center; */
-    margin: 0;    
+    margin: 0;
   }
   .flyer-thumb {
     display: 50%;
@@ -387,63 +394,47 @@ body {
   }
 
   .event-details {
-    /* font-size: clamp(2rem,7vmin,3rem); */
+    /* width: 150%; */
+    min-height: auto;
+    text-align: left;
+    padding: 0;
+    font-size: 15px;
+    /* font-size: clamp(1rem, 7vmin, 3rem); */
     overflow: hidden;
     text-overflow: unset;
-  }
-  .event-details {
-    width: 150%;
-    text-align: left;
-    font-size: 15px;
-    padding: 0;
-    display: inline-block;
-    position: absolute;
+    /* display: inline-block; */
+    /* position: absolute; */
     /* margin: 0 0 0 50%; */
     /* max-width: 90%; */
   }
-  /* header {
-    width: 95%;
-    height: auto;
-  } */
 
   #logo-small {
     width: 90%;
   }
-  
-  menu {
-    padding-inline-start: 0;
-  }
-
-  .table-style {
-    /* font-family: 'Bangers', sans-serif;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0px; */
-    font-size: 30px;
-    margin: 1px;
-    padding: 0px 10px 0px 0px red;
-    /* border-color: red; */
-    }
 
   /*************** HAMBURGER MENU **************/
+  /*************** HAMBURGER MENU **************/
+  /*************** HAMBURGER MENU **************/
+
   #hamburger .topnav {
     overflow: hidden;
     background-color: #000;
     position: relative;
   }
-      
+
   #hamburger .topnav #myLinks {
     display: none;
   }
-  
+
   #hamburger .topnav a {
-    font-family: 'Special Elite', sans-serif;
+    font-family: "Special Elite", sans-serif;
     color: blanchedalmond;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
     display: block;
   }
-  
+
   #hamburger .topnav a.icon {
     background: red;
     display: block;
@@ -453,7 +444,7 @@ body {
     top: 0;
     height: 75px;
   }
-  
+
   #hamburger .topnav a:hover {
     background-color: red;
     color: black;
@@ -465,11 +456,11 @@ body {
   /* #hamburger #show-location {
     display: none;
   } */
-  .child{
+  .child {
     display: none;
   }
-  
-  .parent.clicked .child{
+
+  .parent.clicked .child {
     display: block;
   }
 }
@@ -499,5 +490,5 @@ only screen and (min-device-pixel-ratio: 1.5){
   }
   .venue-body h1 {
     font-size: 65px;
-  }  
+  }
 }
